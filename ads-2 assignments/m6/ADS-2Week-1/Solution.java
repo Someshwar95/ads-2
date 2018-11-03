@@ -12,6 +12,12 @@ class PageRank {
 }
 
 class WebSearch {
+	public WebSearch(int pageRank, String filename) {
+
+	}
+	public int iAmFeelingLucky(String query) {
+		return -1;
+	}
 
 }
 
@@ -19,9 +25,13 @@ class WebSearch {
 public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int vertex = Integer.parseInt(sc.nextLine());
+		int n = sc.nextInt();
+		int count = 0;
 		// read the first line of the input to get the number of vertices
-
+		for (int i = 1;i <= n;i++) {
+			for (int j = 1;j <= n;j++) {
+			}
+		}
 		// iterate count of vertices times 
 		// to read the adjacency list from std input
 		// and build the graph

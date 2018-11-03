@@ -1,8 +1,5 @@
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:8: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:35: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:36: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:39: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:44: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:46: Line is longer than 80 characters (found 106). [LineLength]
@@ -21,7 +18,7 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:151:35: '{' at column 35 should have line break after. [LeftCurly]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Bag.java:159: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 18 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Digraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Digraph.java:7: Line has trailing spaces. [RegexpSingleline]
@@ -276,30 +273,17 @@ Audit done.
 Checkstyle ends with 34 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:11:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:43:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:43:46: Parameter filename should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:53:36: Parameter query should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:11:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:43:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:43:42: Parameter filename should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:53:32: Parameter query should be final. [FinalParameters]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:61:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:67:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:71: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:72:32: ';' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:72:39: ';' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:73:40: ';' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:73:47: ';' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:73:52: Must have at least one statement. [EmptyBlock]
+[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:67:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:73:42: Must have at least one statement. [EmptyBlock]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:76: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:79: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:80: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:82: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:84: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:87: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:89: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:90: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Solution.java:96: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-2\ads-2 assignments\m6\ADS-2Week-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

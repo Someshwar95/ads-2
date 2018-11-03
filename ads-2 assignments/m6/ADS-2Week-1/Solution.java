@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 /**.
  * Class for page rank.
  */
@@ -8,7 +8,7 @@ class PageRank {
 	 *
 	 * @param      graph  The graph
 	 */
-	public PageRank(int graph) {
+	public PageRank(final int graph) {
 
 	}
 	/**.
@@ -18,7 +18,7 @@ class PageRank {
 	 *
 	 * @return     The pr.
 	 */
-	public double getPR(int v) {
+	public double getPR(final int v) {
 		return 0;
 	}
 	/**.
@@ -40,7 +40,7 @@ class WebSearch {
 	 * @param      pageRank  The page rank
 	 * @param      filename  The filename
 	 */
-	public WebSearch(int pageRank, String filename) {
+	public WebSearch(final int pageRank, String filename) {
 		filename = "WebContent.txt";
 	}
 	/**.

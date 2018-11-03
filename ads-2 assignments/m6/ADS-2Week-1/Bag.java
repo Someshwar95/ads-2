@@ -52,12 +52,24 @@ import java.util.NoSuchElementException;
  *  @param <Item> the generic type of an item in this bag
  */
 public class Bag<Item> implements Iterable<Item> {
+    /**.
+     * { var_description }
+     */
     private Node<Item> first;    // beginning of bag
+    /**.
+     * { var_description }
+     */
     private int n;               // number of elements in bag
 
     // helper linked list class
     private static class Node<Item> {
+        /**.
+         * { var_description }
+         */
         private Item item;
+        /**.
+         * { var_description }
+         */
         private Node<Item> next;
     }
 
@@ -113,19 +125,40 @@ public class Bag<Item> implements Iterable<Item> {
 
     // an iterator, doesn't implement remove() since it's optional
     private class ListIterator<Item> implements Iterator<Item> {
+        /**.
+         * { var_description }
+         */
         private Node<Item> current;
 
+        /**.
+         * Constructs the object.
+         *
+         * @param      first  The first
+         */
         public ListIterator(Node<Item> first) {
             current = first;
         }
 
+        /**.
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext()  { return current != null;                     }
+        /**.
+         * { function_description }
+         */
         public void remove()      { throw new UnsupportedOperationException();  }
 
+        /**.
+         * { function_description }
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

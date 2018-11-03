@@ -418,7 +418,6 @@ public final class StdIn {
                                            + "but there no more tokens are available");
         }
     }
-
    /**
      * Reads the next token from standard input, parses it as a long integer, and returns the long integer.
      *
@@ -462,7 +461,6 @@ public final class StdIn {
                                            + "but no more tokens are available");
         }
     }
-
    /**
      * Reads the next token from standard input, parses it as a byte, and returns the byte.
      *
@@ -484,7 +482,6 @@ public final class StdIn {
                                            + "but no more tokens are available");
         }
     }
-
     /**
      * Reads the next token from standard input, parses it as a boolean,
      * and returns the boolean.
@@ -509,9 +506,7 @@ public final class StdIn {
             throw new NoSuchElementException("attempts to read a 'boolean' value from standard input, "
                                            + "but no more tokens are available");
         }
-
     }
-
     /**
      * Reads all remaining tokens from standard input and returns them as an array of strings.
      *
@@ -530,7 +525,6 @@ public final class StdIn {
             decapitokens[i] = tokens[i+1];
         return decapitokens;
     }
-
     /**
      * Reads all remaining lines from standard input and returns them as an array of strings.
      * @return all remaining lines on standard input, as an array of strings
@@ -542,7 +536,6 @@ public final class StdIn {
         }
         return lines.toArray(new String[lines.size()]);
     }
-
     /**
      * Reads all remaining tokens from standard input, parses them as integers, and returns
      * them as an array of integers.
@@ -556,7 +549,6 @@ public final class StdIn {
             vals[i] = Integer.parseInt(fields[i]);
         return vals;
     }
-
     /**
      * Reads all remaining tokens from standard input, parses them as longs, and returns
      * them as an array of longs.
@@ -570,7 +562,6 @@ public final class StdIn {
             vals[i] = Long.parseLong(fields[i]);
         return vals;
     }
-
     /**
      * Reads all remaining tokens from standard input, parses them as doubles, and returns
      * them as an array of doubles.
@@ -584,22 +575,22 @@ public final class StdIn {
             vals[i] = Double.parseDouble(fields[i]);
         return vals;
     }
-    
     //// end: section (2 of 2) of code duplicated from In to StdIn
-    
-    
     // do this once when StdIn is initialized
     static {
         resync();
     }
-
-    /**
+    /**.
      * If StdIn changes, use this to reinitialize the scanner.
      */
     private static void resync() {
         setScanner(new Scanner(new java.io.BufferedInputStream(System.in), CHARSET_NAME));
     }
-    
+    /**.
+     * Sets the scanner.
+     *
+     * @param      scanner  The scanner
+     */
     private static void setScanner(Scanner scanner) {
         StdIn.scanner = scanner;
         StdIn.scanner.useLocale(LOCALE);

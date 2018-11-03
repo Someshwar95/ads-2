@@ -1,28 +1,69 @@
 import java.util.*;
+/**.
+ * Class for page rank.
+ */
 class PageRank {
+	/**.
+	 * Constructs the object.
+	 *
+	 * @param      graph  The graph
+	 */
 	public PageRank(int graph) {
 
 	}
+	/**.
+	 * Gets the pr.
+	 *
+	 * @param      v     { parameter_description }
+	 *
+	 * @return     The pr.
+	 */
 	public double getPR(int v) {
 		return 0;
 	}
+	/**.
+	 * Returns a string representation of the object.
+	 *
+	 * @return     String representation of the object.
+	 */
 	public String toString() {
 		return "";
 	}
 }
-
+/**.
+ * Class for web search.
+ */
 class WebSearch {
+	/**.
+	 * Constructs the object.
+	 *
+	 * @param      pageRank  The page rank
+	 * @param      filename  The filename
+	 */
 	public WebSearch(int pageRank, String filename) {
-
+		filename = "WebContent.txt";
 	}
+	/**.
+	 * { function_description }
+	 *
+	 * @param      query  The query
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int iAmFeelingLucky(String query) {
 		return -1;
 	}
 
 }
-
-
+/**.
+ * Class for solution.
+ */
 public class Solution {
+	/**.
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -36,9 +77,7 @@ public class Solution {
 		// to read the adjacency list from std input
 		// and build the graph
 		
-		
 		// Create page rank object and pass the graph object to the constructor
-		
 		// print the page rank object
 		
 		// This part is only for the final test case

@@ -4,9 +4,7 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:44:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:168: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:168:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:181: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:183: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:183: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:185: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 3 errors.

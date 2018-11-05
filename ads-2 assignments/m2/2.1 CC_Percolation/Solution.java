@@ -47,7 +47,7 @@ class Percolation {
                 }
             }
         }
-        DepthFirstSearch objectDFP = new DepthFirstSearch (
+        DepthFirstSearch objectDFP = new DepthFirstSearch(
                                 graph, vertices * vertices);
         return objectDFP.hasPathTo(vertices * vertices + 1);
     }

@@ -37,7 +37,7 @@ class Graph {
      * Time complexity O(1).
      * @return  vertices.
      */
-    public int V() {
+    public int v() {
         return vertices;
     }
     /**.

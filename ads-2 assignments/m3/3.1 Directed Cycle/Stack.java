@@ -105,7 +105,9 @@ public class Stack<Item> implements Iterable<Item> {
      * @return     { description_of_the_return_value }
      */
     public Item pop() {
-        if (isEmpty()) throw new RuntimeException("Stack underflow");
+        if (isEmpty()) {
+            throw new RuntimeException("Stack underflow");
+        }
         Item item = first.item;        // save item to return
         first = first.next;            // delete first node
         N--;
@@ -121,12 +123,15 @@ public class Stack<Item> implements Iterable<Item> {
      * @return     { description_of_the_return_value }
      */
     public Item peek() {
-        if (isEmpty()) throw new RuntimeException("Stack underflow");
+        if (isEmpty()) {
+            throw new RuntimeException("Stack underflow");
+        }
         return first.item;
     }
-
-   /**
-     * Return string representation.
+    /**.
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
@@ -134,7 +139,6 @@ public class Stack<Item> implements Iterable<Item> {
             s.append(item + " ");
         return s.toString();
     }
-       
 
    /**
      * Return an iterator to the stack that iterates through the items in LIFO order.

@@ -103,11 +103,13 @@ public class Bag<Item> implements Iterable<Item> {
          *
          * @return     True if has next, False otherwise.
          */
-        public boolean hasNext()  { return current != null;                     }
+        public boolean hasNext()
+        { return current != null;                     }
         /**.
          * { function_description }
          */
-        public void remove()      { throw new UnsupportedOperationException();  }
+        public void remove()
+        { throw new UnsupportedOperationException();  }
         /**.
          * { function_description }
          *

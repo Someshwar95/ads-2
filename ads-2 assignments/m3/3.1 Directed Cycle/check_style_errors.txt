@@ -4,11 +4,11 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:72: Expected @return tag. [JavadocMethod]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:79:32: Expected @param tag for 'item'. [JavadocMethod]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:89: Expected @return tag. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:106: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:106:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:110: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:110:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:117: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:107:9: '{' at column 9 should be on the previous line. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:107:9: '{' at column 9 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:112:9: '{' at column 9 should be on the previous line. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:112:9: '{' at column 9 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:119: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
 Checkstyle ends with 10 errors.
 Starting audit...

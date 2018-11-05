@@ -1,0 +1,25 @@
+Starting audit...
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
+Starting audit...
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
+Starting audit...
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Graph.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Graph.java:20: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Graph.java:27: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Graph.java:40:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Graph.java:48: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 6 errors.
+Starting audit...
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Solution.java:50: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Solution.java:50:59: '(' is followed by whitespace. [ParenPad]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Solution.java:63: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m2\2.1 CC_Percolation\Solution.java:74: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 5 errors.

@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:18: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:21: Line is longer than 80 characters (found 105). [LineLength]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:24: Type Javadoc comment is missing @param <Item> tag. [JavadocType]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:25:5: Missing a Javadoc comment. [JavadocVariable]
@@ -10,21 +9,16 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:31:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:45: Expected @return tag. [JavadocMethod]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:52: Expected @return tag. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:59:21: Parameter item should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:59:26: Expected @param tag for 'item'. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:59:32: Expected @param tag for 'item'. [JavadocMethod]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:71: Expected @return tag. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:72: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:76: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:77:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:79: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:79:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:80: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:80:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:82:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:83: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:85: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:86: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:86:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:90: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:90:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:97: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 18 errors.
 Starting audit...
 Audit done.
 Starting audit...

@@ -15,7 +15,7 @@ import java.util.NoSuchElementException;
  *  items in arbitrary order.
  *  <p>
  *  The <em>add</em>, <em>isEmpty</em>, and <em>size</em>  operation
- *  take constant time. Iteration takes 
+ *  take constant time. Iteration takes
  *  time proportional to the number of items.
  *  <p>
  *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
@@ -56,7 +56,7 @@ public class Bag<Item> implements Iterable<Item> {
    /**
      * Add the item to the bag.
      */
-    public void add(Item item) {
+    public void add(final Item item) {
         Node oldfirst = first;
         first = new Node();
         first.item = item;
@@ -69,20 +69,34 @@ public class Bag<Item> implements Iterable<Item> {
      * Return an iterator that iterates over the items in the bag.
      */
     public Iterator<Item> iterator()  {
-        return new ListIterator();  
+        return new ListIterator();
     }
 
     // an iterator, doesn't implement remove() since it's optional
     private class ListIterator implements Iterator<Item> {
+        /**.
+         * { var_description }
+         */
         private Node current = first;
-
+        /**.
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext()  { return current != null;                     }
+        /**.
+         * { function_description }
+         */
         public void remove()      { throw new UnsupportedOperationException();  }
-
+        /**.
+         * { function_description }
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

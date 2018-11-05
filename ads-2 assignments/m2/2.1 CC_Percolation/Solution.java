@@ -47,7 +47,7 @@ class Percolation {
                 }
             }
         }
-        DepthFirstSearch objectDFP = new DepthFirstSearch( 
+        DepthFirstSearch objectDFP = new DepthFirstSearch (
                                 graph, vertices * vertices);
         return objectDFP.hasPathTo(vertices * vertices + 1);
     }
@@ -60,7 +60,7 @@ class Percolation {
      *
      * @return      int
      */
-    public int index(final int row, final int column) { 
+    public int index(final int row, final int column) {
         return row * vertices + column;
     }
 }
@@ -71,7 +71,7 @@ public final class Solution {
     /**.
      * Constructs the object.
      */
-    private Solution() { 
+    private Solution() {
     }
     /**.
      * main function to handle testcases.

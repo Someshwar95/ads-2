@@ -5,7 +5,7 @@ class Graph {
     /**.
      * integer variable vertices.
      */
-    private  int vertices; 
+    private  int vertices;
     /**.
      * integer variable edges.
      */
@@ -24,7 +24,7 @@ class Graph {
      * Time complexity : O(n).
      * @param      vertix     integer variable.
      */
-    Graph(final int vertix) { 
+    Graph(final int vertix) {
         this.vertices = vertix;
         this.edges = 0;
         adj = (Bag<Integer>[]) new Bag[vertix];
@@ -45,7 +45,7 @@ class Graph {
      * Time complexity : O(1).
      * @return edges.
      */
-    public int e() { 
+    public int e() {
         return edges;
     }
     /**.

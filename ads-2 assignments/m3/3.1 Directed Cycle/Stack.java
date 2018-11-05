@@ -4,7 +4,7 @@
  *
  *  A generic stack, implemented using a linked list. Each stack
  *  element is of type Item.
- * 
+ *
  *  % more tobe.txt
  *  to be or not to - be - - that - - - is
  *
@@ -32,13 +32,32 @@ import java.util.NoSuchElementException;
  *  <a href="/algs4/13stacks">Section 1.3</a> of
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  */
+/**.
+ * List of .
+ *
+ * @param      <Item>  The item
+ */
 public class Stack<Item> implements Iterable<Item> {
+    /**.
+     * { var_description }
+     */
     private int N;          // size of the stack
+    /**.
+     * { var_description }
+     */
     private Node first;     // top of stack
-
     // helper linked list class
+    /**.
+     * Class for node.
+     */
     private class Node {
+        /**.
+         * { var_description }
+         */
         private Item item;
+        /**.
+         * { var_description }
+         */
         private Node next;
     }
 

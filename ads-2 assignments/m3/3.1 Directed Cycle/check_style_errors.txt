@@ -4,18 +4,15 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:44:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:138: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:144: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:146: Expected @return tag. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:146:39: '{' at column 39 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:149: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:150:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:151: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:151:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:152: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:152:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:154:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:155: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:157: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:152:39: '{' at column 39 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:155: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:156:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:157: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:157:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:158: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:158:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:160:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:161: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Stack.java:163: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 11 errors.

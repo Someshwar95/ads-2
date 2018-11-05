@@ -135,13 +135,19 @@ public class Stack<Item> implements Iterable<Item> {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        for (Item item : this)
+        for (Item item : this) {
             s.append(item + " ");
+        }
         return s.toString();
     }
-
-   /**
-     * Return an iterator to the stack that iterates through the items in LIFO order.
+   /**.
+     * Return an iterator to the stack that iterates
+     * through the items in LIFO order.
+     */
+    /**.
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
      */
     public Iterator<Item> iterator()  { return new ListIterator();  }
 

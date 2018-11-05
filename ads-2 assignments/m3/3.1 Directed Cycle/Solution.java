@@ -14,13 +14,13 @@ class Directed {
     /**.
      * initialising the bag interger class.
      */
-    private Bag<Integer>[] adjacent; 
+    private Bag<Integer>[] adjacent;
     /**.
      * Constructs the object.
      *
      * @param      scan  The scanner class
      */
-    Directed(final Scanner scan) { 
+    Directed(final Scanner scan) {
         vertices = scan.nextInt();
         edges = 0;
         int noedges = scan.nextInt();
@@ -41,7 +41,7 @@ class Directed {
      */
     public int nodes() {
         return vertices;
-    } 
+    }
     /**.
      * returns the number of edges present.
      * complexity O(1).
@@ -152,6 +152,9 @@ class Cyclic {
         stack[one] = false;
     }
 }
+/**.
+ * { item_description }
+ */
 final class Solution {
     /**.
      * Constructs the object.
@@ -175,4 +178,6 @@ final class Solution {
 
     }
 }
+
+
 

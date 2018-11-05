@@ -50,24 +50,25 @@ public class Bag<Item> implements Iterable<Item> {
          */
         private Node next;
     }
-
-   /**
-     * Create an empty stack.
+    /**.
+     * Constructs the object.
      */
     public Bag() {
         first = null;
         N = 0;
     }
-
-   /**
-     * Is the BAG empty?
+    /**.
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
         return first == null;
     }
-
-   /**
+    /**.
      * Return the number of items in the bag.
+     *
+     * @return     { description_of_the_return_value }
      */
     public int size() {
         return N;

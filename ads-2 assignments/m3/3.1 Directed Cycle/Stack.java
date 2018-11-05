@@ -60,31 +60,33 @@ public class Stack<Item> implements Iterable<Item> {
          */
         private Node next;
     }
-
-   /**
-     * Create an empty stack.
+    /**.
+     * Constructs the object.
      */
     public Stack() {
         first = null;
         N = 0;
     }
-
-   /**
-     * Is the stack empty?
+    /**.
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
         return first == null;
     }
-
-   /**
+    /**.
      * Return the number of items in the stack.
+     *
+     * @return     { description_of_the_return_value }
      */
     public int size() {
         return N;
     }
-
-   /**
-     * Add the item to the stack.
+    /**.
+     * { function_description }
+     *
+     * @param      item  The item
      */
     public void push(Item item) {
         Node oldfirst = first;

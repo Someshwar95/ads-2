@@ -37,6 +37,9 @@ public class Bag<Item> implements Iterable<Item> {
      */
     private Node first;    // beginning of bag
     // helper linked list class
+    /**.
+     * Class for node.
+     */
     private class Node {
         /**.
          * { var_description }
@@ -86,8 +89,10 @@ public class Bag<Item> implements Iterable<Item> {
     public Iterator<Item> iterator()  {
         return new ListIterator();
     }
-
     // an iterator, doesn't implement remove() since it's optional
+    /**.
+     * Class for list iterator.
+     */
     private class ListIterator implements Iterator<Item> {
         /**.
          * { var_description }

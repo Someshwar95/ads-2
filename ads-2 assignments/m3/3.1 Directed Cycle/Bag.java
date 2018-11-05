@@ -18,7 +18,8 @@ import java.util.NoSuchElementException;
  *  take constant time. Iteration takes
  *  time proportional to the number of items.
  *  <p>
- *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
+ *  For additional documentation,
+ *  see <a href="http://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  */
 /**.
@@ -69,7 +70,7 @@ public class Bag<Item> implements Iterable<Item> {
         return N;
     }
 
-   /**
+   /**.
      * Add the item to the bag.
      */
     public void add(final Item item) {
@@ -79,9 +80,7 @@ public class Bag<Item> implements Iterable<Item> {
         first.next = oldfirst;
         N++;
     }
-
-
-   /**
+    /**.
      * Return an iterator that iterates over the items in the bag.
      */
     public Iterator<Item> iterator()  {

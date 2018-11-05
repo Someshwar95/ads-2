@@ -1,19 +1,18 @@
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:21: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:33:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:39: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:61: Expected @return tag. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:68: Expected @return tag. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:75:32: Expected @param tag for 'item'. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:87: Expected @return tag. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:92: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:102: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:102:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:106: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:106:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:113: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:34:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:40: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:62: Expected @return tag. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:69: Expected @return tag. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:76:32: Expected @param tag for 'item'. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:86: Expected @return tag. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:91: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:101: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:101:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:105: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:105:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m3\3.1 Directed Cycle\Bag.java:112: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 Audit done.
 Starting audit...

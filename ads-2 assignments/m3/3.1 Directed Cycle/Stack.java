@@ -41,7 +41,7 @@ public class Stack<Item> implements Iterable<Item> {
     /**.
      * { var_description }
      */
-    private int N;          // size of the stack
+    private int n;          // size of the stack
     /**.
      * { var_description }
      */
@@ -65,7 +65,7 @@ public class Stack<Item> implements Iterable<Item> {
      */
     public Stack() {
         first = null;
-        N = 0;
+        n = 0;
     }
     /**.
      * Determines if empty.
@@ -81,7 +81,7 @@ public class Stack<Item> implements Iterable<Item> {
      * @return     { description_of_the_return_value }
      */
     public int size() {
-        return N;
+        return n;
     }
     /**.
      * { function_description }
@@ -93,7 +93,7 @@ public class Stack<Item> implements Iterable<Item> {
         first = new Node();
         first.item = item;
         first.next = oldfirst;
-        N++;
+        n++;
     }
    /**.
      * Delete and return the item most recently added to the stack.
@@ -110,7 +110,7 @@ public class Stack<Item> implements Iterable<Item> {
         }
         Item item = first.item;        // save item to return
         first = first.next;            // delete first node
-        N--;
+        n--;
         return item;                   // return the saved item
     }
    /**
@@ -182,7 +182,7 @@ public class Stack<Item> implements Iterable<Item> {
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

@@ -94,7 +94,7 @@ class EdgeWeightedGraph {
     EdgeWeightedGraph(final int s) {
         list = new Bag[s];
         size = s;
-        for (int i = 0; i < s; i++) { 
+        for (int i = 0; i < s; i++) {
             list[i] = new Bag();
         }
     }
@@ -110,7 +110,7 @@ class EdgeWeightedGraph {
         list[pos1].add(e);
     }
     /**.
-     * { vertices } 
+     * { vertices }
      *
      * @return     { count of vertices in graph }
      */
@@ -180,7 +180,7 @@ class ShortestPath {
             if (pq.contains(w)) {
              pq.decreaseKey(w, distTo[w]);
             } else {
-                pq.insert(w, distTo[w]); 
+                pq.insert(w, distTo[w]);
             }
         }
     }
@@ -209,8 +209,8 @@ class ShortestPath {
 /**
  * Class for solution.
  */
-final class Solution { 
-    /** 
+final class Solution {
+    /**
      * Constructs the object.
      */
     private Solution() {

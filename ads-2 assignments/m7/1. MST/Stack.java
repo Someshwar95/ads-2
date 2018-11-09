@@ -83,7 +83,7 @@ public class Stack<Item> implements Iterable<Item> {
      *
      * @param  item the item to add
      */
-    public void push(Item item) {
+    public void push(final Item item) {
         Node<Item> oldfirst = first;
         first = new Node<Item>();
         first.item = item;
@@ -157,7 +157,7 @@ public class Stack<Item> implements Iterable<Item> {
          *
          * @param      first  The first
          */
-        public ListIterator(Node<Item> first) {
+        public ListIterator(final Node<Item> first) {
             current = first;
         }
         /**.

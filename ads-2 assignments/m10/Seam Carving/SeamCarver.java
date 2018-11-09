@@ -55,7 +55,8 @@ public class SeamCarver {
      * @return     { description_of_the_return_value }
      */
     public double energy(int x, int y) {
-        if (x == 0 || y == 0 || picture.width() - 1 == x || picture.height()-1 == y) {
+        if (x == 0 || y == 0 || picture.width() - 1 ==
+            x || picture.height() - 1 == y) {
             return 1000;
         } else {
             Color top = picture.get(x, y + 1);
@@ -70,13 +71,13 @@ public class SeamCarver {
             int bv = Math.abs(top.getBlue() - bottom.getBlue());
             int gv = Math.abs(top.getGreen() - bottom.getGreen());
             int vertical = rv * rv + bv * bv + gv * gv;
-            double energy = Math.sqrt(horizontal+vertical);
+            double energy = Math.sqrt(horizontal + vertical);
             return energy;
         }
     }
     // sequence of indices for horizontal seam
     /**.
-     * 
+     * sequence of indices for horizontal seam
      *
      * @return     { description_of_the_return_value }
      */
@@ -98,7 +99,7 @@ public class SeamCarver {
      *
      * @param      seam  The seam
      */
-    public void removeHorizontalSeam(int[] seam) {
+    public void removeHorizontalSeam(final int[] seam) {
 
     }
     // remove vertical seam from current picture
@@ -107,7 +108,7 @@ public class SeamCarver {
      *
      * @param      seam  The seam
      */
-    public void removeVerticalSeam(int[] seam) {
+    public void removeVerticalSeam(final int[] seam) {
 
     }
 }

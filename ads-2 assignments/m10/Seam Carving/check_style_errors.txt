@@ -226,17 +226,10 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:6:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:57:26: Parameter x should be final. [FinalParameters]
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:57:33: Parameter y should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:58: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:58:77: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:58:78: '-' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:59:20: '1000' is a magic number. [MagicNumber]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:73:49: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:73:50: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:79: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:101:38: Parameter seam should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:110:36: Parameter seam should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:58:53: '==' should be on a new line. [OperatorWrap]
+[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:60:20: '1000' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 6 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]

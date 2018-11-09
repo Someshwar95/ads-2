@@ -27,11 +27,11 @@ import java.util.NoSuchElementException;
  * @param      <Item>  The item
  */
 public class Stack<Item> implements Iterable<Item> {
-    /**
+    /**.
      * { var_description }
      */
     private Node<Item> first;     // top of stack
-    /**
+    /**.
      * { var_description }
      */
     private int n;                // size of the stack
@@ -42,17 +42,17 @@ public class Stack<Item> implements Iterable<Item> {
      * @param      <Item>  The item
      */
     private static class Node<Item> {
-        /**
+        /**.
          * { var_description }
          */
         private Item item;
-        /**
+        /**.
          * { var_description }
          */
         private Node<Item> next;
     }
 
-    /**
+    /**.
      * Initializes an empty stack.
      */
     public Stack() {
@@ -60,7 +60,7 @@ public class Stack<Item> implements Iterable<Item> {
         n = 0;
     }
 
-    /**
+    /**.
      * Returns true if this stack is empty.
      *
      * @return true if this stack is empty; false otherwise
@@ -120,7 +120,8 @@ public class Stack<Item> implements Iterable<Item> {
     /**
      * Returns a string representation of this stack.
      *
-     * @return the sequence of items in this stack in LIFO order, separated by spaces
+     * @return the sequence of items in this stack
+     * in LIFO order, separated by spaces
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
@@ -130,12 +131,12 @@ public class Stack<Item> implements Iterable<Item> {
         }
         return s.toString();
     }
-       
-
     /**
-     * Returns an iterator to this stack that iterates through the items in LIFO order.
+     * Returns an iterator to this stack that iterates
+     * through the items in LIFO order.
      *
-     * @return an iterator to this stack that iterates through the items in LIFO order
+     * @return an iterator to this stack that iterates
+     * through the items in LIFO order
      */
     public Iterator<Item> iterator() {
         return new ListIterator<Item>(first);

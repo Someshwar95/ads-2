@@ -11,23 +11,15 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:30: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:34: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:45: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:49: First sentence should end with a period. [JavadocStyle]
 [ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:86:22: Parameter item should be final. [FinalParameters]
 [ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:101: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:116: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:123: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:133: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:136: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:138: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:159:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:159:29: Parameter first should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:159:40: 'first' hides a field. [HiddenField]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:182: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:160:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:160:29: Parameter first should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:160:40: 'first' hides a field. [HiddenField]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Stack.java:183: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 7 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]

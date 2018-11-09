@@ -7,31 +7,9 @@ Checkstyle ends with 3 errors.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:107: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:115:25: Parameter item should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:120: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:121: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:131: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:135: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:150: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:153: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:155: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:158: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:162: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:163:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:165:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:165:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:165:29: Parameter first should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:165:40: 'first' hides a field. [HiddenField]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:169: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:169:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:170: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:170:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:172:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:173: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:175: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...

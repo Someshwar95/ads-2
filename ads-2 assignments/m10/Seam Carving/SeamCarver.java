@@ -3,7 +3,10 @@ import java.awt.Color;
  * Class for seam carver.
  */
 public class SeamCarver {
-    public static final int Thousand = 1000;
+    /**.
+     * { var_description }
+     */
+    public static final int THOUSAND = 1000;
     /**.
      * { var_description }
      */
@@ -61,7 +64,7 @@ public class SeamCarver {
     public double energy(final int x, final int y) {
         if (x == 0 || y == 0 || picture.width() - 1
             == x || picture.height() - 1 == y) {
-            return Thousand;
+            return THOUSAND;
         } else {
             Color top = picture.get(x, y + 1);
             Color bottom = picture.get(x, y - 1);

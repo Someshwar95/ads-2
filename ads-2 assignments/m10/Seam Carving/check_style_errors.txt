@@ -222,10 +222,9 @@ Starting audit...
 Audit done.
 Checkstyle ends with 43 errors.
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:60:38: ',' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:63:20: '1000' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]

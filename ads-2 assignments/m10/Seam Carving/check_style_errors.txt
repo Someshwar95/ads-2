@@ -222,9 +222,10 @@ Starting audit...
 Audit done.
 Checkstyle ends with 43 errors.
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:63:20: '1000' is a magic number. [MagicNumber]
+[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:6:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\SeamCarver.java:6:29: Name 'Thousand' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'. [ConstantName]
 Audit done.
-Checkstyle ends with 1 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-2\ads-2 assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]

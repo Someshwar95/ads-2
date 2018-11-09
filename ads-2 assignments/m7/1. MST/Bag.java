@@ -116,7 +116,7 @@ public class Bag<Item> implements Iterable<Item> {
      *
      * @param  item the item to add to this bag
      */
-    public void add(Item item) {
+    public void add(final Item item) {
         Node<Item> oldfirst = first;
         first = new Node<Item>();
         first.item = item;
@@ -124,12 +124,14 @@ public class Bag<Item> implements Iterable<Item> {
         n++;
     }
     /**
-     * Returns an iterator that iterates over the items in this bag in arbitrary order.
+     * Returns an iterator that iterates over
+     * the items in this bag in arbitrary order.
      *
-     * @return an iterator that iterates over the items in this bag in arbitrary order
+     * @return an iterator that iterates over
+     * the items in this bag in arbitrary order
      */
     public Iterator<Item> iterator()  {
-        return new ListIterator<Item>(first);  
+        return new ListIterator<Item>(first);
     }
     // an iterator, doesn't implement remove() since it's optional
     /**.
@@ -147,7 +149,7 @@ public class Bag<Item> implements Iterable<Item> {
          *
          * @param      first  The first
          */
-        public ListIterator(Node<Item> first) {
+        public ListIterator(final Node<Item> first) {
             current = first;
         }
         /**.

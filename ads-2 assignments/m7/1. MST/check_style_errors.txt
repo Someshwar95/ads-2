@@ -1,19 +1,14 @@
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:119:21: Parameter item should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:127: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:129: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:132: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:150:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:150:29: Parameter first should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:150:40: 'first' hides a field. [HiddenField]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:158: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:158:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:162: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:162:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:170: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:172: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:152:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:152:46: 'first' hides a field. [HiddenField]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:160: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:160:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:164: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:164:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:172: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m7\1. MST\Bag.java:174: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 8 errors.
 Starting audit...
 Audit done.
 Starting audit...

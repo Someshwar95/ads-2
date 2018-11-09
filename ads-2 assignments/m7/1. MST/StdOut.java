@@ -155,9 +155,10 @@ public final class StdOut {
         out.print(x);
         out.flush();
     }
-
-   /**
+    /**.
      * Print a char to standard output and flush standard output.
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final char x) {
         out.print(x);

@@ -104,7 +104,7 @@ class EdgeWeightedGraph {
      */
     public void addEdge(final Edge e) {
         int pos = e.either();
-        int pos1 = e.other(pos);       
+        int pos1 = e.other(pos);
         graph[pos].add(e);
         graph[pos1].add(e);
     }
@@ -230,3 +230,5 @@ final class Solution {
         System.out.format("%.5f", st.min());
     }
 }
+
+

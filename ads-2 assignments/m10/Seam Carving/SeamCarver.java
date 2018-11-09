@@ -5,6 +5,11 @@ import java.awt.Color;
 public class SeamCarver {
     private Picture picture;
     // create a seam carver object based on the given picture
+    /**.
+     * Constructs the object.
+     *
+     * @param      picture1  The picture 1
+     */
     public SeamCarver(final Picture picture1) {
         if (picture1 == null) {
             throw new IllegalArgumentException("picture is null");
@@ -13,15 +18,30 @@ public class SeamCarver {
         }
     }
     // current picture
+    /**.
+     * current picture
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Picture picture() {
         return this.picture;
     }
     // width of current picture
+    /**.
+     * width of current picture
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int width() {
         return picture.width();
     }
 
     // height of current picture
+    /**.
+     * height of current picture
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int height() {
         return picture.height();
     }

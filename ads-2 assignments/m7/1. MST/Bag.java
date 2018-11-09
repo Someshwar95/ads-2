@@ -157,11 +157,15 @@ public class Bag<Item> implements Iterable<Item> {
          *
          * @return     True if has next, False otherwise.
          */
-        public boolean hasNext()  { return current != null;                     }
+        public boolean hasNext()  {
+            return current != null;
+        }
         /**.
          * { function_description }
          */
-        public void remove()      { throw new UnsupportedOperationException();  }
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
 
         /**.
          * { function_description }
@@ -169,9 +173,9 @@ public class Bag<Item> implements Iterable<Item> {
          * @return     { description_of_the_return_value }
          */
         public Item next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext())  throw new NoSuchElementException();
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             return item;
         }
     }

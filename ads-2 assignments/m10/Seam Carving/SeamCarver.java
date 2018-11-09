@@ -36,9 +36,9 @@ public class SeamCarver {
 			int bh = Math.abs(right.getBlue()-left.getBlue());
 			int gh = Math.abs(right.getGreen()-left.getGreen());
 			int horizontal = rh*rh+bh*bh+gh*gh;
-			int rv = Math.abs(right.getRed()-left.getRed());
-			int bv = Math.abs(right.getBlue()-left.getBlue());
-			int gv = Math.abs(right.getGreen()-left.getGreen());
+			int rv = Math.abs(top.getRed()-bottom.getRed());
+			int bv = Math.abs(top.getBlue()-bottom.getBlue());
+			int gv = Math.abs(top.getGreen()-bottom.getGreen());
 			int vertical = rv*rv+bv*bv+gv*gv;
 			double energy = Math.sqrt(horizontal+vertical);
 			return energy;

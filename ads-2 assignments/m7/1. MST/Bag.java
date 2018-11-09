@@ -41,7 +41,8 @@ import java.util.NoSuchElementException;
  *  textbook that uses a non-static nested class.
  *  See {@link ResizingArrayBag} for a version that uses a resizing array.
  *  The <em>add</em>, <em>isEmpty</em>, and <em>size</em> operations
- *  take constant time. Iteration takes time proportional to the number of items.
+ *  take constant time. Iteration takes time proportional
+ *  to the number of items.
  *  <p>
  *  For additional documentation, see
  *  <a href="http://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
@@ -52,13 +53,34 @@ import java.util.NoSuchElementException;
  *
  *  @param <Item> the generic type of an item in this bag
  */
+/**.
+ * Class for bag.
+ *
+ * @param      <Item>  The item
+ */
 public class Bag<Item> implements Iterable<Item> {
+    /**.
+     * beginning of bag
+     */
     private Node<Item> first;    // beginning of bag
+    /**.
+     * number of elements in bag
+     */
     private int n;               // number of elements in bag
-
     // helper linked list class
+    /**.
+     * Class for node.
+     *
+     * @param      <Item>  The item
+     */
     private static class Node<Item> {
+        /**.
+         * { var_description }
+         */
         private Item item;
+        /**.
+         * { var_description }
+         */
         private Node<Item> next;
     }
 
@@ -101,8 +123,6 @@ public class Bag<Item> implements Iterable<Item> {
         first.next = oldfirst;
         n++;
     }
-
-
     /**
      * Returns an iterator that iterates over the items in this bag in arbitrary order.
      *
@@ -111,18 +131,41 @@ public class Bag<Item> implements Iterable<Item> {
     public Iterator<Item> iterator()  {
         return new ListIterator<Item>(first);  
     }
-
     // an iterator, doesn't implement remove() since it's optional
+    /**.
+     * Class for list iterator.
+     *
+     * @param      <Item>  The item
+     */
     private class ListIterator<Item> implements Iterator<Item> {
+        /**.
+         * { var_description }
+         */
         private Node<Item> current;
-
+        /**.
+         * Constructs the object.
+         *
+         * @param      first  The first
+         */
         public ListIterator(Node<Item> first) {
             current = first;
         }
-
+        /**.
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext()  { return current != null;                     }
+        /**.
+         * { function_description }
+         */
         public void remove()      { throw new UnsupportedOperationException();  }
 
+        /**.
+         * { function_description }
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Item next() {
             if (!hasNext()) throw new NoSuchElementException();
             Item item = current.item;

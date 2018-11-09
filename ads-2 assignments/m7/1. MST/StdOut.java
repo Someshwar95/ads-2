@@ -139,17 +139,19 @@ public final class StdOut {
     public static void print() {
         out.flush();
     }
-
-   /**
+    /**
      * Print an Object to standard output and flush standard output.
+     * 
+     * @param      x     { parameter_description }
      */
     public static void print(final Object x) {
         out.print(x);
         out.flush();
     }
-
-   /**
+    /**.
      * Print a boolean to standard output and flush standard output.
+     * 
+     * @param      x     { parameter_description }
      */
     public static void print(final boolean x) {
         out.print(x);
@@ -172,33 +174,37 @@ public final class StdOut {
         out.print(x);
         out.flush();
     }
-
-   /**
+    /**.
      * Print a float to standard output and flush standard output.
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final float x) {
         out.print(x);
         out.flush();
     }
-
-   /**
+    /**.
      * Print an int to standard output and flush standard output.
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final int x) {
         out.print(x);
         out.flush();
     }
-
-   /**
+    /**.
      * Print a long to standard output and flush standard output.
+     *
+     * @param      x     { parameter_description }
      */
     public static void print(final long x) {
         out.print(x);
         out.flush();
     }
-
-   /**
+    /**.
      * Print a short to standard output and flush standard output.
+     * 
+     * @param      x     { parameter_description }
      */
     public static void print(final short x) {
         out.print(x);

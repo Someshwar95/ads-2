@@ -3,6 +3,9 @@ import java.awt.Color;
  * Class for seam carver.
  */
 public class SeamCarver {
+    /**.
+     * { var_description }
+     */
     private Picture picture;
     // create a seam carver object based on the given picture
     /**.
@@ -54,9 +57,9 @@ public class SeamCarver {
      *
      * @return     { description_of_the_return_value }
      */
-    public double energy(int x, int y) {
-        if (x == 0 || y == 0 || picture.width() - 1 ==
-            x || picture.height() - 1 == y) {
+    public double energy(final int x,final int y) {
+        if (x == 0 || y == 0 || picture.width() - 1
+            == x || picture.height() - 1 == y) {
             return 1000;
         } else {
             Color top = picture.get(x, y + 1);
@@ -112,3 +115,5 @@ public class SeamCarver {
 
     }
 }
+
+

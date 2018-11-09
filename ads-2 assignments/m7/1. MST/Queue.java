@@ -2,11 +2,11 @@
  *  Compilation:  javac Queue.java
  *  Execution:    java Queue < input.txt
  *  Dependencies: StdIn.java StdOut.java
- *  Data files:   http://algs4.cs.princeton.edu/13stacks/tobe.txt  
+ *  Data files:   http://algs4.cs.princeton.edu/13stacks/tobe.txt
  *
  *  A generic queue, implemented using a linked list.
  *
- *  % java Queue < tobe.txt 
+ *  % java Queue < tobe.txt
  *  to be or not to be (2 left on queue)
  *
  ******************************************************************************/
@@ -26,10 +26,12 @@ import java.util.NoSuchElementException;
  *  linked-list nodes. See {@link LinkedQueue} for the version from the
  *  textbook that uses a non-static nested class.
  *  See {@link ResizingArrayQueue} for a version that uses a resizing array.
- *  The <em>enqueue</em>, <em>dequeue</em>, <em>peek</em>, <em>size</em>, and <em>is-empty</em>
+ *  The <em>enqueue</em>, <em>dequeue</em>, <em>peek</em>,
+ *  <em>size</em>, and <em>is-empty</em>
  *  operations all take constant time in the worst case.
  *  <p>
- *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
+ *  For additional documentation, see
+ *  <a href="http://algs4.cs.princeton.edu/13stacks">Section 1.3</a> of
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  *
  *  @author Robert Sedgewick
@@ -37,17 +39,40 @@ import java.util.NoSuchElementException;
  *
  *  @param <Item> the generic type of an item in this queue
  */
+/**.
+ * List of .
+ *
+ * @param      <Item>  The item
+ */
 public class Queue<Item> implements Iterable<Item> {
+    /**.
+     * { var_description }
+     */
     private Node<Item> first;    // beginning of queue
+    /**.
+     * { var_description }
+     */
     private Node<Item> last;     // end of queue
+    /**.
+     * { var_description }
+     */
     private int n;               // number of elements on queue
-
     // helper linked list class
+    /**.
+     * Class for node.
+     *
+     * @param      <Item>  The item
+     */
     private static class Node<Item> {
+        /**.
+         * { var_description }
+         */
         private Item item;
+        /**.
+         * { var_description }
+         */
         private Node<Item> next;
     }
-
     /**
      * Initializes an empty queue.
      */
@@ -56,7 +81,6 @@ public class Queue<Item> implements Iterable<Item> {
         last  = null;
         n = 0;
     }
-
     /**
      * Returns true if this queue is empty.
      *
@@ -65,7 +89,6 @@ public class Queue<Item> implements Iterable<Item> {
     public boolean isEmpty() {
         return first == null;
     }
-
     /**
      * Returns the number of items in this queue.
      *
@@ -74,7 +97,6 @@ public class Queue<Item> implements Iterable<Item> {
     public int size() {
         return n;
     }
-
     /**
      * Returns the item least recently added to this queue.
      *
@@ -85,7 +107,6 @@ public class Queue<Item> implements Iterable<Item> {
         if (isEmpty()) throw new NoSuchElementException("Queue underflow");
         return first.item;
     }
-
     /**
      * Adds the item to this queue.
      *
@@ -100,7 +121,6 @@ public class Queue<Item> implements Iterable<Item> {
         else           oldlast.next = last;
         n++;
     }
-
     /**
      * Removes and returns the item on this queue that was least recently added.
      *
@@ -115,7 +135,6 @@ public class Queue<Item> implements Iterable<Item> {
         if (isEmpty()) last = null;   // to avoid loitering
         return item;
     }
-
     /**
      * Returns a string representation of this queue.
      *

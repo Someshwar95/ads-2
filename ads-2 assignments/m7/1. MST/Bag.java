@@ -143,7 +143,7 @@ public class Bag<Item> implements Iterable<Item> {
         /**.
          * { var_description }
          */
-        public Node<Item> current;
+        private Node<Item> current;
         /**.
          * Constructs the object.
          *

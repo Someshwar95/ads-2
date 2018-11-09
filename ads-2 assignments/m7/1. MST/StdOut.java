@@ -10,25 +10,32 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.Locale;
-
 /**
  *  <i>Standard output</i>. This class provides methods for writing strings
  *  and numbers to standard output.
  *  <p>
- *  For additional documentation, see <a href="http://introcs.cs.princeton.edu/15inout">Section 1.5</a> of
- *  <i>Introduction to Programming in Java: An Interdisciplinary Approach</i> by Robert Sedgewick and Kevin Wayne.
+ *  For additional documentation, see
+ *  <a href="http://introcs.cs.princeton.edu/15inout">Section 1.5</a> of
+ *  <i>Introduction to Programming in Java: An Interdisciplinary
+ *  Approach</i> by Robert Sedgewick and Kevin Wayne.
  */
 public final class StdOut {
 
     // force Unicode UTF-8 encoding; otherwise it's system dependent
+    /**.
+     * { var_description }
+     */
     private static final String UTF8 = "UTF-8";
-
     // assume language = English, country = US for consistency with StdIn
+    /**.
+     * { var_description }
+     */
     private static final Locale US_LOCALE = new Locale("en", "US");
-
     // send output here
+    /**.
+     * { var_description }
+     */
     private static PrintWriter out;
-
     // this is called before invoking any methods
     static {
         try {
@@ -36,10 +43,11 @@ public final class StdOut {
         }
         catch (UnsupportedEncodingException e) { System.out.println(e); }
     }
-
     // singleton pattern - can't instantiate
+    /**.
+     * Constructs the object.
+     */
     private StdOut() { }
-
     // close the output stream (not required)
    /**
      * Close standard output.
@@ -47,7 +55,6 @@ public final class StdOut {
     public static void close() {
         out.close();
     }
-
    /**
      * Terminate the current line by printing the line separator string.
      */
@@ -58,63 +65,63 @@ public final class StdOut {
    /**
      * Print an object to standard output and then terminate the line.
      */
-    public static void println(Object x) {
+    public static void println(final Object x) {
         out.println(x);
     }
 
    /**
      * Print a boolean to standard output and then terminate the line.
      */
-    public static void println(boolean x) {
+    public static void println(final boolean x) {
         out.println(x);
     }
 
    /**
      * Print a char to standard output and then terminate the line.
      */
-    public static void println(char x) {
+    public static void println(final char x) {
         out.println(x);
     }
 
    /**
      * Print a double to standard output and then terminate the line.
      */
-    public static void println(double x) {
+    public static void println(final double x) {
         out.println(x);
     }
 
    /**
      * Print a float to standard output and then terminate the line.
      */
-    public static void println(float x) {
+    public static void println(final float x) {
         out.println(x);
     }
 
    /**
      * Print an int to standard output and then terminate the line.
      */
-    public static void println(int x) {
+    public static void println(final int x) {
         out.println(x);
     }
 
    /**
      * Print a long to standard output and then terminate the line.
      */
-    public static void println(long x) {
+    public static void println(final long x) {
         out.println(x);
     }
 
    /**
      * Print a short to standard output and then terminate the line.
      */
-    public static void println(short x) {
+    public static void println(final short x) {
         out.println(x);
     }
 
    /**
      * Print a byte to standard output and then terminate the line.
      */
-    public static void println(byte x) {
+    public static void println(final byte x) {
         out.println(x);
     }
 
@@ -128,7 +135,7 @@ public final class StdOut {
    /**
      * Print an Object to standard output and flush standard output.
      */
-    public static void print(Object x) {
+    public static void print(final Object x) {
         out.print(x);
         out.flush();
     }
@@ -136,7 +143,7 @@ public final class StdOut {
    /**
      * Print a boolean to standard output and flush standard output.
      */
-    public static void print(boolean x) {
+    public static void print(final boolean x) {
         out.print(x);
         out.flush();
     }
@@ -144,7 +151,7 @@ public final class StdOut {
    /**
      * Print a char to standard output and flush standard output.
      */
-    public static void print(char x) {
+    public static void print(final char x) {
         out.print(x);
         out.flush();
     }
@@ -152,7 +159,7 @@ public final class StdOut {
    /**
      * Print a double to standard output and flush standard output.
      */
-    public static void print(double x) {
+    public static void print(final double x) {
         out.print(x);
         out.flush();
     }
@@ -160,7 +167,7 @@ public final class StdOut {
    /**
      * Print a float to standard output and flush standard output.
      */
-    public static void print(float x) {
+    public static void print(final float x) {
         out.print(x);
         out.flush();
     }
@@ -168,7 +175,7 @@ public final class StdOut {
    /**
      * Print an int to standard output and flush standard output.
      */
-    public static void print(int x) {
+    public static void print(final int x) {
         out.print(x);
         out.flush();
     }
@@ -176,7 +183,7 @@ public final class StdOut {
    /**
      * Print a long to standard output and flush standard output.
      */
-    public static void print(long x) {
+    public static void print(final long x) {
         out.print(x);
         out.flush();
     }
@@ -184,7 +191,7 @@ public final class StdOut {
    /**
      * Print a short to standard output and flush standard output.
      */
-    public static void print(short x) {
+    public static void print(final short x) {
         out.print(x);
         out.flush();
     }
@@ -192,7 +199,7 @@ public final class StdOut {
    /**
      * Print a byte to standard output and flush standard output.
      */
-    public static void print(byte x) {
+    public static void print(final byte x) {
         out.print(x);
         out.flush();
     }

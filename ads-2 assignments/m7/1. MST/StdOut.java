@@ -61,71 +61,79 @@ public final class StdOut {
     public static void println() {
         out.println();
     }
-
-   /**
+    /**.
      * Print an object to standard output and then terminate the line.
+     *
+     * @param      x
      */
     public static void println(final Object x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Print a boolean to standard output and then terminate the line.
+     *
+     * @param      x
      */
     public static void println(final boolean x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Print a char to standard output and then terminate the line.
+     *
+     * @param      x
      */
     public static void println(final char x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Print a double to standard output and then terminate the line.
+     *
+     * @param      x
      */
     public static void println(final double x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Print a float to standard output and then terminate the line.
+     *
+     * @param      x     { parameter_description }
      */
     public static void println(final float x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Print an int to standard output and then terminate the line.
+     *
+     * @param      x
      */
     public static void println(final int x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Print a long to standard output and then terminate the line.
+     *
+     * @param      x
      */
     public static void println(final long x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Print a short to standard output and then terminate the line.
+     *
+     * @param      x
      */
     public static void println(final short x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Print a byte to standard output and then terminate the line.
+     *
+     * @param      x
      */
     public static void println(final byte x) {
         out.println(x);
     }
-
-   /**
+    /**.
      * Flush standard output.
      */
     public static void print() {

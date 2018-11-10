@@ -18,6 +18,7 @@ public class Solution {
 		String caseToGo = null;
 		switch (caseToGo) {
 		case "Graph":
+		System.out.println();
 			//Print the Graph Object.
 			break;
 
@@ -29,6 +30,7 @@ public class Solution {
 			break;
 
 		case "ViaPaths":
+				System.out.println("No Path Found.");
 			// Handle the case of ViaPaths, where three integers are given.
 			// First is the source and second is the via is the one where path should pass throuh.
 			// third is the destination.

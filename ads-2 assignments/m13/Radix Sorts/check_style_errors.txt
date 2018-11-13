@@ -7,27 +7,9 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:58:19: Name 'R' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalFinalVariableName]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:59:19: Name 'MASK' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalFinalVariableName]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:65: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:68:36: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:68:37: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:69: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:70:47: '*' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:70:48: '*' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:75: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:79:23: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:79:24: '-' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:80:48: '/' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:80:49: '/' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:81:37: '/' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:81:38: '/' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:82: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:82:38: '/' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:82:39: '/' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:84: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:84:31: '/' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:84:32: '/' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:90:47: '*' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:90:48: '*' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 28 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 Audit done.

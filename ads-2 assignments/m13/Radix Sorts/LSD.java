@@ -1,16 +1,22 @@
+/**.
+ * Class for lsd.
+ */
 public class LSD {
+    /**.
+     * { var_description }
+     */
     private static final int BITS_PER_BYTE = 8;
 
     // do not instantiate
     //private LSD() { }
 
-   /**  
+   /**.
      * Rearranges the array of W-character strings in ascending order.
      *
      * @param a the array to be sorted
      * @param w the number of characters per string
      */
-    public static void sort(String[] a, int w) {
+    public static void sort(final String[] a, final int w) {
         int n = a.length;
         int R = 256;   // extend ASCII alphabet size
         String[] aux = new String[n];

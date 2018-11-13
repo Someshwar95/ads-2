@@ -32,7 +32,7 @@ public class LSD {
 
             // compute cumulates
             for (int r = 0; r < R; r++) {
-                count[r+1] += count[r];
+                count[r + 1] += count[r];
             }
 
             // move data
@@ -53,8 +53,8 @@ public class LSD {
      *
      * @param a the array to be sorted
      */
-    public static void sort(int[] a) {
-        final int BITS = 32;                 // each int is 32 bits 
+    public static void sort(final int[] a) {
+        final int BITS = 32;                 // each int is 32 bits
         final int R = 1 << BITS_PER_BYTE;    // each bytes is between 0 and 255
         final int MASK = R - 1;              // 0xFF
         final int w = BITS / BITS_PER_BYTE;  // each int is 4 bytes

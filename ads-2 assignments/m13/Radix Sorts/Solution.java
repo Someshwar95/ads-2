@@ -1,9 +1,4 @@
 import java.util.*;
-// class abc{
-// 	void sort(int n){
-
-// 	}
-// }
 public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -16,7 +11,6 @@ public class Solution {
 		LSD l = new LSD();
 		int w = arr[0].length();
 		l.sort(arr,w);
-		// System.out.println("sai");
 		System.out.println(Arrays.toString(arr));
 	}
 }

@@ -1,15 +1,11 @@
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:21:13: Name 'R' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:21:17: '256' is a magic number. [MagicNumber]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:57:19: Name 'BITS' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalFinalVariableName]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:58:19: Name 'R' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalFinalVariableName]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:59:19: Name 'MASK' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalFinalVariableName]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:65: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:69: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:75: 'for' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 6 errors.
 Starting audit...
 Audit done.

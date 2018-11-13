@@ -1,9 +1,7 @@
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:21:13: Name 'R' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:21:17: '256' is a magic number. [MagicNumber]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:58:19: Name 'R' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalFinalVariableName]
+[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:21:18: '256' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.

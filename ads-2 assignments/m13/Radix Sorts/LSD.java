@@ -56,7 +56,7 @@ public class LSD {
     public static void sort(final int[] a) {
         final int BITS = 32;                 // each int is 32 bits
         final int R = 1 << BITS_PER_BYTE;    // each bytes is between 0 and 255
-        final int MASK = R - 1;              // 0xFF
+        final int mask = R - 1;              // 0xFF
         final int w = BITS / BITS_PER_BYTE;  // each int is 4 bytes
 
         int n = a.length;
@@ -67,7 +67,7 @@ public class LSD {
             // compute frequency counts
             int[] count = new int[R + 1];
             for (int i = 0; i < n; i++) {
-                int c = (a[i] >> BITS_PER_BYTE * d) & MASK;
+                int c = (a[i] >> BITS_PER_BYTE * d) & mask;
                 count[c + 1]++;
             }
 
@@ -90,7 +90,7 @@ public class LSD {
 
             // move data
             for (int i = 0; i < n; i++) {
-                int c = (a[i] >> BITS_PER_BYTE * d) & MASK;
+                int c = (a[i] >> BITS_PER_BYTE * d) & mask;
                 aux[count[c]++] = a[i];
             }
 

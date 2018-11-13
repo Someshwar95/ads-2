@@ -54,10 +54,10 @@ public class LSD {
      * @param a the array to be sorted
      */
     public static void sort(final int[] a) {
-        final int BITS = 32;                 // each int is 32 bits
+        final int bits = 32;                 // each int is 32 bits
         final int R = 1 << BITS_PER_BYTE;    // each bytes is between 0 and 255
         final int mask = R - 1;              // 0xFF
-        final int w = BITS / BITS_PER_BYTE;  // each int is 4 bytes
+        final int w = bits / BITS_PER_BYTE;  // each int is 4 bytes
 
         int n = a.length;
         int[] aux = new int[n];
@@ -125,3 +125,4 @@ public class LSD {
     //         StdOut.println(a[i]);
     // }
 }
+

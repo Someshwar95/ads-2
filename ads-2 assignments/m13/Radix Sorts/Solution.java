@@ -5,6 +5,11 @@ import java.util.Arrays;
  */
 final class Solution {
     /**.
+     * Constructs the object.
+     */
+    private Solution() {
+    }
+    /**.
      * { function_description }
      *
      * @param      args  The arguments
@@ -22,3 +27,4 @@ final class Solution {
         System.out.println(Arrays.toString(arr));
     }
 }
+

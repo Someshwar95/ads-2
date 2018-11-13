@@ -50,7 +50,4 @@ Starting audit...
 Audit done.
 Checkstyle ends with 48 errors.
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\Solution.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 Audit done.
-Checkstyle ends with 2 errors.

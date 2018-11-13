@@ -1,7 +1,6 @@
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:21:18: '256' is a magic number. [MagicNumber]
+[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:23:18: '256' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.

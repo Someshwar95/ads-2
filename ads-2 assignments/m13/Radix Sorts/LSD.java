@@ -6,10 +6,12 @@ public class LSD {
      * { var_description }
      */
     private static final int BITS_PER_BYTE = 8;
-
-    // do not instantiate
-    //private LSD() { }
-
+    /**.
+     * Constructs the object.
+     */
+    protected LSD() {
+        // do not instantiate
+    }
    /**.
      * Rearranges the array of W-character strings in ascending order.
      *

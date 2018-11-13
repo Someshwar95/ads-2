@@ -21,7 +21,7 @@ public class LSD {
         int R = 256;   // extend ASCII alphabet size
         String[] aux = new String[n];
 
-        for (int d = w-1; d >= 0; d--) {
+        for (int d = w - 1; d >= 0; d--) {
             // sort by key-indexed counting on dth character
 
             // compute frequency counts
@@ -69,7 +69,7 @@ public class LSD {
 
             // compute cumulates
             for (int r = 0; r < R; r++)
-                count[r+1] += count[r];
+                count[r + 1] += count[r];
 
             // for most significant byte, 0x80-0xFF comes before 0x00-0x7F
             if (d == w-1) {
@@ -88,8 +88,9 @@ public class LSD {
             }
 
             // copy back
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++) {
                 a[i] = aux[i];
+            }
         }
     }
 

@@ -3,8 +3,6 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:21:13: Name 'R' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:21:17: '256' is a magic number. [MagicNumber]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:24:23: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:24:24: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:28:36: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:28:37: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:29: 'for' construct must use '{}'s. [NeedBraces]
@@ -25,8 +23,6 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:66:47: '*' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:66:48: '*' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:71: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:72:24: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:72:25: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:75:23: '-' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:75:24: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:76:48: '/' is not preceded with whitespace. [WhitespaceAround]
@@ -41,8 +37,7 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:80:32: '/' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:86:47: '*' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:86:48: '*' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m13\Radix Sorts\LSD.java:91: 'for' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 43 errors.
+Checkstyle ends with 38 errors.
 Starting audit...
 Audit done.

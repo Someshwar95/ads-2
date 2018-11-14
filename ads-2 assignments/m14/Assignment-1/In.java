@@ -17,19 +17,14 @@ import java.util.regex.Pattern;
  * { item_description }
  */
 public final class In {
-    
     ///// begin: section (1 of 2) of code duplicated from In to StdIn.
-    
     // assume Unicode UTF-8 encoding
     private static final String CHARSET_NAME = "UTF-8";
-
     // assume language = English, country = US for consistency with System.out.
     private static final Locale LOCALE = Locale.US;
-
     // the default token separator; we maintain the invariant that this value 
     // is held by the scanner's delimiter between calls
     private static final Pattern WHITESPACE_PATTERN = Pattern.compile("\\p{javaWhitespace}+");
-
     // makes whitespace characters significant 
     private static final Pattern EMPTY_PATTERN = Pattern.compile("");
 

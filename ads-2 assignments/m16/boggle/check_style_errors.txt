@@ -587,14 +587,14 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:35:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'getAllValidWords' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'getAllValidWords' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:35:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:35:50: Parameter board should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:39: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:40: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:41:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:41:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:41:28: Parameter word should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:42:42: '==' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:42:42: Expression can be simplified. [SimplifyBooleanExpression]
-[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:42:44: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:42: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:43: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:44:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:44:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:44:28: Parameter word should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:45:42: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:45:42: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] C:\ads-2\ads-2 assignments\m16\boggle\BoggleSolver.java:45:44: '==' is not followed by whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 35 errors.
 Starting audit...

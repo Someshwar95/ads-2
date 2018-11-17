@@ -78,16 +78,14 @@ public class MaxPQ<Key> implements Iterable<Key> {
     public MaxPQ() {
         this(1);
     }
-
-    /**
-     * Initializes an empty priority queue with the given initial capacity,
-     * using the given comparator.
+    /**.
+     * Constructs the object.
      *
-     * @param  initCapacity the initial capacity of this priority queue
-     * @param  comparator the order in which to compare the keys
+     * @param      initCapacity  The initialize capacity
+     * @param      comparatorr   The comparatorr
      */
-    public MaxPQ(final int initCapacity, final Comparator<Key> comparator) {
-        this.comparator = comparator;
+    public MaxPQ(final int initCapacity, final Comparator<Key> comparatorr) {
+        this.comparator = comparatorr;
         pq = (Key[]) new Object[initCapacity + 1];
         n = 0;
     }

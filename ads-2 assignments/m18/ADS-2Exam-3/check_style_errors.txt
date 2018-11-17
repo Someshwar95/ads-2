@@ -379,13 +379,9 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:128:5: Redundant 'public' modifier. [RedundantModifier]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:129: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:129: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:133:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:133:41: Parameter prefix should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:138:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:138:44: Parameter t9Signature should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:158:50: Parameter k should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Solution.java:145: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 5 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\TST.java:46: Line is longer than 80 characters (found 84). [LineLength]

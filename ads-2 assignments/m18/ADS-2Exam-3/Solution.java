@@ -128,14 +128,29 @@ class T9 {
     public T9(final BinarySearchST<String, Integer> st) {
                                                                                                         
     }
-
     // get all the prefixes that match with given prefix.
-    public Iterable<String> getAllWords(String prefix) {
+
+    /**.
+     * Gets all words.
+     *
+     * @param      prefix  The prefix
+     *
+     * @return     All words.
+     */
+    public Iterable<String> getAllWords(final String prefix) {
         // your code goes here
         return null;
     }
 
-    public Iterable<String> potentialWords(String t9Signature) {
+    
+    /**.
+     * { function_description }
+     *
+     * @param      t9Signature  The t 9 signature
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public Iterable<String> potentialWords(final String t9Signature) {
         // your code goes here
         return null;
     }
@@ -155,7 +170,7 @@ class T9 {
      * @return     The suggestions.
      */
     public Iterable<String>
-    getSuggestions(final Iterable<String> words, int k) {
+    getSuggestions(final Iterable<String> words, final int k) {
                // your code goes here
         return null;
     }

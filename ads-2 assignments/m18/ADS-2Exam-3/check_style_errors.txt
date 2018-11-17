@@ -317,19 +317,10 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:242: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:255: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:258:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:262:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:262:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:263: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:264: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:265: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:269: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:269:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:270: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:270:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:272:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:273: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:265:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:295: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 64 errors.
+Checkstyle ends with 55 errors.
 Starting audit...
 Audit done.
 Starting audit...

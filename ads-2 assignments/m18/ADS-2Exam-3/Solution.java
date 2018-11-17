@@ -126,7 +126,6 @@ class T9 {
      * @param      st    { parameter_description }
      */
     public T9(final BinarySearchST<String, Integer> st) {
-                                                                                    
     }
     // get all the prefixes that match with given prefix.
 
@@ -155,10 +154,6 @@ class T9 {
     }
 
     // return all possibilities(words), find top k with highest frequency.
-
-
-
-
 
     /**.
      * Gets the suggestions.

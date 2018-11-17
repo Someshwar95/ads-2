@@ -4,16 +4,13 @@ import java.io.*;
 
 
 public class Solution {
-
 	// Don't modify this method.
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String cases = scan.nextLine();
-
 		switch (cases) {
 		case "loadDictionary": 
 			// input000.txt and output000.txt
-			Dictionary d = new Hashtable();
 			BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
 			while (scan.hasNextLine()) {
 				String key = scan.nextLine();

@@ -252,9 +252,15 @@ public class MaxPQ<Key> implements Iterable<Key> {
         return new HeapIterator();
     }
 
+    /**.
+     * Class for heap iterator.
+     */
     private class HeapIterator implements Iterator<Key> {
 
         // create a new pq
+        /**.
+         * { var_description }
+         */
         private MaxPQ<Key> copy;
 
         // add all items to copy of heap

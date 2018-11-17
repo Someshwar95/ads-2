@@ -315,12 +315,10 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:234: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:235: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:242: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:255: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:258:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:265:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:295: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:271:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:301: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 55 errors.
+Checkstyle ends with 53 errors.
 Starting audit...
 Audit done.
 Starting audit...

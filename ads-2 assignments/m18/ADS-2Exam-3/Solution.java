@@ -106,18 +106,27 @@ final class Solution {
      *
      * @return     { description_of_the_return_value }
      */
-    public static BinarySearchST<String, Integer> loadDictionary(final String file) {
-        BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
+    public static BinarySearchST<String, Integer>
+    loadDictionary(final String file) {
+        BinarySearchST<String, Integer>  st =
+        new BinarySearchST<String, Integer>();
         // your code goes here
         return st;
     }
 
 }
-
+/**.
+ * Class for t 9.
+ */
 class T9 {
-
-    public T9(BinarySearchST<String, Integer> st) {
-        // your code goes here
+    // your code goes here
+    /**.
+     * Constructs the object.
+     *
+     * @param      st    { parameter_description }
+     */
+    public T9(final BinarySearchST<String, Integer> st) {
+                                                                                                        
     }
 
     // get all the prefixes that match with given prefix.

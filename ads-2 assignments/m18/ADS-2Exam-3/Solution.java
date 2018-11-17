@@ -119,13 +119,18 @@ final class Solution {
  * Class for t 9.
  */
 class T9 {
+    /**.
+     * Constructs the object.
+     */
+    private T9() {
+    }
     // your code goes here
     /**.
      * Constructs the object.
      *
      * @param      st    { parameter_description }
      */
-    public T9(BinarySearchST<String, Integer> st) {
+    public T9(final BinarySearchST<String, Integer> st) {
     }
     // get all the prefixes that match with given prefix.
 

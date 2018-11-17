@@ -186,10 +186,10 @@ public class Queue<Item> implements Iterable<Item> {
          * { var_description }
          */
         private Node<Item> current;
-        /**.
+        /**
          * Constructs the object.
          *
-         * @param      first  The first
+         * @param      firsti  The firsti
          */
         protected ListIterator(final Node<Item> firsti) {
             current = firsti;

@@ -17,9 +17,10 @@ final class Solution {
         Scanner scan = new Scanner(System.in);
         String cases = scan.nextLine();
         switch (cases) {
-        case "loadDictionary": 
+        case "loadDictionary":
             // input000.txt and output000.txt
-            BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
+            BinarySearchST<String, Integer> hash =
+            loadDictionary("/Files/t9.csv");
             while (scan.hasNextLine()) {
                 String key = scan.nextLine();
                 System.out.println(hash.get(key));

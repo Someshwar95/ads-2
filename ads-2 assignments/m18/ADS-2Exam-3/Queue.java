@@ -123,9 +123,12 @@ public class Queue<Item> implements Iterable<Item> {
         last = new Node<Item>();
         last.item = item;
         last.next = null;
-        if (isEmpty()) first = last;
-        else           oldlast.next = last;
-        n++;
+        if (isEmpty()) {
+         first = last;
+        } else {
+            oldlast.next = last;
+            n++;
+        }
     }
 
     /**

@@ -265,8 +265,8 @@ Audit done.
 Checkstyle ends with 128 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:98:18: Parameter comparator should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:98:34: 'comparator' hides a field. [HiddenField]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:96:8: Unused @param tag for 'comparator'. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:98:40: Expected @param tag for 'comparatorrr'. [JavadocMethod]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:104: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:108:18: Parameter keys should be final. [FinalParameters]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:148: 'if' construct must use '{}'s. [NeedBraces]

@@ -32,8 +32,10 @@ import java.util.NoSuchElementException;
  *  This implementation uses a binary heap.
  *  The <em>insert</em> and <em>delete-the-maximum</em> operations take
  *  logarithmic amortized time.
- *  The <em>max</em>, <em>size</em>, and <em>is-empty</em> operations take constant time.
- *  Construction takes time proportional to the specified capacity or the number of
+ *  The <em>max</em>, <em>size</em>, and <em>is-empty</em>
+ *  operations take constant time.
+ *  Construction takes time proportional to the
+ *  specified capacity or the number of
  *  items used to initialize the data structure.
  *  <p>
  *  For additional documentation, see 
@@ -47,8 +49,17 @@ import java.util.NoSuchElementException;
  */
 
 public class MaxPQ<Key> implements Iterable<Key> {
+    /**.
+     * { var_description }
+     */
     private Key[] pq;                    // store items at indices 1 to n
+    /**.
+     * { var_description }
+     */
     private int n;                       // number of items on priority queue
+    /**.
+     * { var_description }
+     */
     private Comparator<Key> comparator;  // optional comparator
 
     /**
@@ -99,10 +110,12 @@ public class MaxPQ<Key> implements Iterable<Key> {
     public MaxPQ(Key[] keys) {
         n = keys.length;
         pq = (Key[]) new Object[keys.length + 1];
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             pq[i + 1] = keys[i];
-        for (int k = n / 2; k >= 1; k--)
+        }
+        for (int k = n / 2; k >= 1; k--) {
             sink(k);
+        }
         assert isMaxHeap();
     }
 

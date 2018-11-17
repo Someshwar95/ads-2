@@ -141,14 +141,35 @@ class T9 {
     }
 
     // return all possibilities(words), find top k with highest frequency.
-    public Iterable<String> getSuggestions(Iterable<String> words, int k) {
-        // your code goes here
+
+
+
+
+
+    /**.
+     * Gets the suggestions.
+     *
+     * @param      words  The words
+     * @param      k      { parameter_description }
+     *
+     * @return     The suggestions.
+     */
+    public Iterable<String> getSuggestions(final Iterable<String> words, int k) {
+               // your code goes here                                                                                         
         return null;
     }
 
     // final output
     // Don't modify this method.
-    public Iterable<String> t9(String t9Signature, int k) {
+    /**.
+     * { function_description }
+     *
+     * @param      t9Signature  The t 9 signature
+     * @param      k            { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public Iterable<String> t9(final String t9Signature, int k) {
         return getSuggestions(potentialWords(t9Signature), k);
     }
 }

@@ -142,7 +142,6 @@ class T9 {
         return null;
     }
 
-    
     /**.
      * { function_description }
      *

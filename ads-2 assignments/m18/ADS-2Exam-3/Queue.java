@@ -176,6 +176,11 @@ public class Queue<Item> implements Iterable<Item> {
     }
 
     // an iterator, doesn't implement remove() since it's optional
+    /**.
+     * Class for list iterator.
+     *
+     * @param      <Item>  The item
+     */
     private class ListIterator<Item> implements Iterator<Item> {
         /**.
          * { var_description }
@@ -186,7 +191,7 @@ public class Queue<Item> implements Iterable<Item> {
          *
          * @param      first  The first
          */
-        public ListIterator(Node<Item> first) {
+        public ListIterator(final Node<Item> first) {
             current = first;
         }
         /**.

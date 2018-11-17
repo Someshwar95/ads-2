@@ -225,14 +225,26 @@ public class MaxPQ<Key> implements Iterable<Key> {
     private boolean isMaxHeap() {
         return isMaxHeap(1);
     }
-
     // is subtree of pq[1..n] rooted at k a max heap?
+    /**.
+     * Determines if maximum heap.
+     *
+     * @param      k     { parameter_description }
+     *
+     * @return     True if maximum heap, False otherwise.
+     */
     private boolean isMaxHeap(int k) {
-        if (k > n) return true;
+        if (k > n) {
+            return true;
+        }
         int left = 2 * k;
         int right = 2 * k + 1;
-        if (left  <= n && less(k, left))  return false;
-        if (right <= n && less(k, right)) return false;
+        if (left  <= n && less(k, left)) {
+            return false;
+        }
+        if (right <= n && less(k, right)) {
+            return false;
+        }
         return isMaxHeap(left) && isMaxHeap(right);
     }
 

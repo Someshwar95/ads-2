@@ -309,16 +309,12 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:218:23: Parameter i should be final. [FinalParameters]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:218:30: Parameter j should be final. [FinalParameters]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:225:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:230:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:230:31: Parameter k should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:231: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:234: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:235: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:242: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:271:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:301: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:236:31: Parameter k should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:254: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:283:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:313: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 53 errors.
+Checkstyle ends with 49 errors.
 Starting audit...
 Audit done.
 Starting audit...

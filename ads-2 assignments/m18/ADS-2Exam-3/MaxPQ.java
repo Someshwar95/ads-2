@@ -89,11 +89,10 @@ public class MaxPQ<Key> implements Iterable<Key> {
         pq = (Key[]) new Object[initCapacity + 1];
         n = 0;
     }
-
-    /**
-     * Initializes an empty priority queue using the given comparator.
+    /**.
+     * Constructs the object.
      *
-     * @param  comparator the order in which to compare the keys
+     * @param      comparatorrr  The comparatorrr
      */
     public MaxPQ(final Comparator<Key> comparatorrr) {
         this(1, comparatorrr);

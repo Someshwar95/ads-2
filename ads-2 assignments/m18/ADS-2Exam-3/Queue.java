@@ -191,8 +191,8 @@ public class Queue<Item> implements Iterable<Item> {
          *
          * @param      first  The first
          */
-        protected ListIterator(final Node<Item> first) {
-
+        protected ListIterator(final Node<Item> firsti) {
+            current = firsti;
         }
         /**.
          * Determines if it has next.

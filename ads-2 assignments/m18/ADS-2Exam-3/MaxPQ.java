@@ -38,7 +38,7 @@ import java.util.NoSuchElementException;
  *  specified capacity or the number of
  *  items used to initialize the data structure.
  *  <p>
- *  For additional documentation, see 
+ *  For additional documentation, see
  *  <a href="https://algs4.cs.princeton.edu/24pq">Section 2.4</a> of
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  *
@@ -67,7 +67,7 @@ public class MaxPQ<Key> implements Iterable<Key> {
      *
      * @param  initCapacity the initial capacity of this priority queue
      */
-    public MaxPQ(int initCapacity) {
+    public MaxPQ(final int initCapacity) {
         pq = (Key[]) new Object[initCapacity + 1];
         n = 0;
     }
@@ -86,7 +86,7 @@ public class MaxPQ<Key> implements Iterable<Key> {
      * @param  initCapacity the initial capacity of this priority queue
      * @param  comparator the order in which to compare the keys
      */
-    public MaxPQ(int initCapacity, Comparator<Key> comparator) {
+    public MaxPQ(final int initCapacity, final Comparator<Key> comparator) {
         this.comparator = comparator;
         pq = (Key[]) new Object[initCapacity + 1];
         n = 0;

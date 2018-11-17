@@ -154,8 +154,9 @@ class T9 {
      *
      * @return     The suggestions.
      */
-    public Iterable<String> getSuggestions(final Iterable<String> words, int k) {
-               // your code goes here                                                                                         
+    public Iterable<String>
+    getSuggestions(final Iterable<String> words, int k) {
+               // your code goes here                                                                             
         return null;
     }
 
@@ -169,7 +170,7 @@ class T9 {
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<String> t9(final String t9Signature, int k) {
+    public Iterable<String> t9(final String t9Signature, final int k) {
         return getSuggestions(potentialWords(t9Signature), k);
     }
 }

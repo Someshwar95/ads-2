@@ -339,21 +339,20 @@ Starting audit...
 Audit done.
 Checkstyle ends with 72 errors.
 Starting audit...
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:141: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:177: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:178:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:180:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:180:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:180:29: Parameter first should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:180:40: 'first' hides a field. [HiddenField]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:184: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:184:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:185: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:185:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:187:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:188: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:179: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:180:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:182:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:182:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:182:29: Parameter first should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:182:40: 'first' hides a field. [HiddenField]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:186: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:186:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:187: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:187:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:189:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:190: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 Audit done.
 Starting audit...

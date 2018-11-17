@@ -305,16 +305,14 @@ Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:210:30: Expected @param tag for 'i'. [JavadocMethod]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:210:33: Parameter j should be final. [FinalParameters]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:210:37: Expected @param tag for 'j'. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:218:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:218:23: Parameter i should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:218:30: Parameter j should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:225:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:236:31: Parameter k should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:254: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:283:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:313: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:223:23: Parameter i should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:223:30: Parameter j should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:245:31: Parameter k should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:263: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:292:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\MaxPQ.java:322: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 49 errors.
+Checkstyle ends with 47 errors.
 Starting audit...
 Audit done.
 Starting audit...

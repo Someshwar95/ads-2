@@ -214,14 +214,23 @@ public class MaxPQ<Key> implements Iterable<Key> {
             return comparator.compare(pq[i], pq[j]) < 0;
         }
     }
-
+    /**.
+     * { function_description }
+     *
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     */
     private void exch(int i, int j) {
         Key swap = pq[i];
         pq[i] = pq[j];
         pq[j] = swap;
     }
-
     // is pq[1..N] a max heap?
+    /**.
+     * Determines if maximum heap.
+     *
+     * @return     True if maximum heap, False otherwise.
+     */
     private boolean isMaxHeap() {
         return isMaxHeap(1);
     }

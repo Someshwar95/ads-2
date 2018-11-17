@@ -107,7 +107,8 @@ public class Queue<Item> implements Iterable<Item> {
      * @throws NoSuchElementException if this queue is empty
      */
     public Item peek() {
-        if (isEmpty()) throw new NoSuchElementException("Queue underflow");{
+        if (isEmpty()) {
+            throw new NoSuchElementException("Queue underflow");
         }
         return first.item;
     }

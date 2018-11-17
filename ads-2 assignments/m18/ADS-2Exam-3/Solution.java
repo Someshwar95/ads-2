@@ -87,14 +87,26 @@ final class Solution {
 
         }
     }
-
     // Don't modify this method.
-    public static String[] toReadFile(String file) {
+    /**.
+     * { function_description }
+     *
+     * @param      file  The file
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static String[] toReadFile(final String file) {
         In in = new In(file);
         return in.readAllStrings();
     }
-
-    public static BinarySearchST<String, Integer> loadDictionary(String file) {
+    /**.
+     * Loads a dictionary.
+     *
+     * @param      file  The file
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public static BinarySearchST<String, Integer> loadDictionary(final String file) {
         BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
         // your code goes here
         return st;

@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.*;
+import java.io.*;
 
 
 public class Solution {
@@ -12,7 +13,7 @@ public class Solution {
 		switch (cases) {
 		case "loadDictionary": 
 			// input000.txt and output000.txt
-		Map<String, String> map = new HashMap<String, String>();
+			Map dictionary = new HashMap();
 			BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
 			while (scan.hasNextLine()) {
 				String key = scan.nextLine();

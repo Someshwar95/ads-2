@@ -340,27 +340,29 @@ Audit done.
 Checkstyle ends with 72 errors.
 Starting audit...
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:110: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:119:25: Parameter item should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:124: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:125: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:136: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:140: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:159: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:161: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:168: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:169:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:171:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:171:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:171:29: Parameter first should be final. [FinalParameters]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:171:40: 'first' hides a field. [HiddenField]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:175: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:175:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:110:76: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:110:76: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:110:76: Avoid nested blocks. [AvoidNestedBlocks]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:125: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:126: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:137: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:141: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:160: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:162: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:169: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:170:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:172:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:172:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:172:29: Parameter first should be final. [FinalParameters]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:172:40: 'first' hides a field. [HiddenField]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:176: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:176:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:178:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:179: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:177: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:177:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:179:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\ads-2\ads-2 assignments\m18\ADS-2Exam-3\Queue.java:180: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 20 errors.
+Checkstyle ends with 22 errors.
 Starting audit...
 Audit done.
 Starting audit...
